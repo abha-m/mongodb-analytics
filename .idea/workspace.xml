@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3004209b-e58e-4a0d-aae3-3eb0ec2c6f94" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/intro-to-mongodb/notebooks/analyzing-data-with-aggregation.ipynb" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,7 +29,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="update_using_script.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cleansing-data-with-updates.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/Assignments/cleansing-data-with-updates.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update_using_script.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/update_using_script.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
@@ -41,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="0" />
             </state>
           </provider>
         </entry>
@@ -74,6 +84,7 @@
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_stringToDate.ipynb" />
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb" />
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/update_using_script.ipynb" />
+        <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/Assignments/cleansing-data-with-updates.ipynb" />
       </list>
     </option>
   </component>
@@ -127,6 +138,13 @@
               <item name="mongodb-analytics" type="462c0819:PsiDirectoryNode" />
               <item name="intro-to-mongodb" type="462c0819:PsiDirectoryNode" />
               <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mongodb-analytics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mongodb-analytics" type="462c0819:PsiDirectoryNode" />
+              <item name="intro-to-mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="notebooks" type="462c0819:PsiDirectoryNode" />
+              <item name="Assignments" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -243,21 +261,29 @@
       <option name="project" value="LOCAL" />
       <updated>1559137020322</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="document-wise and bulk updates using script">
+      <created>1559151642766</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559151642766</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="-4" width="1847" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26282722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26282722" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1539267" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32670158" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30471203" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1684269" sideWeight="0.4951989" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.029319372" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11006115" sideWeight="0.4951989" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03724291" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1917732" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1684269" sideWeight="0.5048011" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -294,7 +320,8 @@
     <MESSAGE value="aggregation on Citibike dataset" />
     <MESSAGE value="reshaping using $project" />
     <MESSAGE value="datetime modifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="datetime modifications" />
+    <MESSAGE value="document-wise and bulk updates using script" />
+    <option name="LAST_COMMIT_MESSAGE" value="document-wise and bulk updates using script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -432,6 +459,13 @@
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/Assignments/cleansing-data-with-updates.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="8" />
         </state>
       </provider>
     </entry>
