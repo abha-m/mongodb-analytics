@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3004209b-e58e-4a0d-aae3-3eb0ec2c6f94" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_stringToDate.ipynb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,17 +30,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="movie_languages_facet.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/movie_languages_facet.ipynb">
+      <file leaf-file-name="projection_reshaping.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projection_reshaping.ipynb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping.ipynb">
+      <file leaf-file-name="projection_reshaping_stringToDate.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_stringToDate.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projection_reshaping_timezone.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="3" />
@@ -71,6 +82,8 @@
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/movie_languages_facet.ipynb" />
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/analyzing-data-with-aggregation.ipynb" />
         <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping.ipynb" />
+        <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_stringToDate.ipynb" />
+        <option value="$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb" />
       </list>
     </option>
   </component>
@@ -226,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558530352673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="reshaping using $project">
+      <created>1559132398423</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1559132398423</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -235,10 +255,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2104712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21256545" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2659686" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09842932" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07059477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30471203" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22234575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962757" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -275,7 +295,8 @@
     <MESSAGE value="aggregation using facet" />
     <MESSAGE value="filtering" />
     <MESSAGE value="aggregation on Citibike dataset" />
-    <option name="LAST_COMMIT_MESSAGE" value="aggregation on Citibike dataset" />
+    <MESSAGE value="reshaping using $project" />
+    <option name="LAST_COMMIT_MESSAGE" value="reshaping using $project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -370,11 +391,25 @@
     <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/movie_languages_facet.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="0" />
+          <selected id="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_stringToDate.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/projection_reshaping_timezone.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
