@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3004209b-e58e-4a0d-aae3-3eb0ec2c6f94" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/mongodb-analytics.iml" afterPath="$PROJECT_DIR$/.idea/mongodb-analytics.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mongodb-aggregation-framework/lookup_lab.ipynb" afterPath="$PROJECT_DIR$/mongodb-aggregation-framework/lookup_lab.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="associative_rules.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="associative_rules.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
               <selected id="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear-regression-on-titanic-data-set.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="20" />
             </state>
           </provider>
         </entry>
@@ -97,6 +104,7 @@
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/pearson_correlation__lab.ipynb" />
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules.ipynb" />
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules_copy.ipynb" />
+        <option value="$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb" />
       </list>
     </option>
   </component>
@@ -348,16 +356,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561145169747</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="pearson's correlation, associative rule mining using mongodb">
+      <created>1562606090779</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1562606090779</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="-4" width="1847" height="1092" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="0" y="0" width="411" height="892" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14345549" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14345549" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19581152" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0041884817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.082722515" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -410,20 +426,14 @@
     <MESSAGE value="lookup with unwind, group, sort" />
     <MESSAGE value="accumulator operations on purchase orders" />
     <MESSAGE value="entity resolution using expressive lookup" />
-    <option name="LAST_COMMIT_MESSAGE" value="entity resolution using expressive lookup" />
+    <MESSAGE value="pearson's correlation, associative rule mining using mongodb" />
+    <option name="LAST_COMMIT_MESSAGE" value="pearson's correlation, associative rule mining using mongodb" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/connect.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/connect.py" />
     <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/connect.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
@@ -705,13 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/lookup_lab.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules_copy.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -719,10 +722,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/lookup_lab.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="20" />
         </state>
       </provider>
     </entry>
