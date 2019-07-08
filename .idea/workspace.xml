@@ -46,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="linear-regression-on-titanic-data-set.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Decision+Tree.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/Decision+Tree.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear-regression-on-titanic-data-set.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="20" />
+              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules.ipynb" />
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules_copy.ipynb" />
         <option value="$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb" />
+        <option value="$PROJECT_DIR$/mongodb-aggregation-framework/Decision+Tree.ipynb" />
       </list>
     </option>
   </component>
@@ -363,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1562606090779</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="linear regression on titanic data">
+      <created>1562612254304</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562612254304</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -372,7 +389,7 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="0" y="0" width="411" height="892" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08782657" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="0" y="0" width="411" height="892" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14345549" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19581152" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0041884817" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -427,14 +444,14 @@
     <MESSAGE value="accumulator operations on purchase orders" />
     <MESSAGE value="entity resolution using expressive lookup" />
     <MESSAGE value="pearson's correlation, associative rule mining using mongodb" />
-    <option name="LAST_COMMIT_MESSAGE" value="pearson's correlation, associative rule mining using mongodb" />
+    <MESSAGE value="linear regression on titanic data" />
+    <option name="LAST_COMMIT_MESSAGE" value="linear regression on titanic data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/connect.py" />
     <entry file="file://$PROJECT_DIR$/intro-to-mongodb/notebooks/connect.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -729,6 +746,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/associative_rules.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -736,10 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/linear-regression-on-titanic-data-set.ipynb">
+    <entry file="file://$PROJECT_DIR$/mongodb-aggregation-framework/Decision+Tree.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="20" />
+          <selected id="23" />
         </state>
       </provider>
     </entry>
